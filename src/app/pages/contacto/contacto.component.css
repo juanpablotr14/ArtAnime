@@ -1,0 +1,159 @@
+.container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+
+input {
+    color:rgb(109, 109, 109);
+    width: 20vw;
+    height: 40px;
+    border: 1px solid black;
+    padding: 6px 20px;
+}
+
+.tarjeta{
+    width: 100%;
+}
+
+table{
+  width: 30vw;
+  height: 60vh;
+  font-family: 'Rubik', sans-serif;
+  background-color: #ffffff;
+  box-shadow: 30px 30px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+
+th{
+  font-family: 'Rubik', sans-serif;
+  text-align:justify;
+  padding: 8px;
+}
+
+td{
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  align-items: center;
+  padding: 8px;
+}
+
+tr{
+  width: 80%;
+}
+
+.controls{
+    border: 1px solid black;
+    padding: 6px 20px;
+    width: 20vw;
+    height: 40px;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.controls2{
+    border: 1px solid black;
+    padding: 6px 20px;
+    width: 20vw;
+    height: 80px;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Enviar{
+    width: 60%;
+}
+
+h2 {
+  width: 100%;
+  font-size: 30px;
+  float: left;
+}
+
+span{
+    color: white;
+    font-weight: 900;
+}
+
+.chulo-style{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+img:hover {
+  -webkit-transform:scale(1.05);
+  transform:  scale(1.05);
+  transition-duration: .5s;
+}
+
+@media all and (min-width: 0px) and ( max-width: 1200px ) {
+
+  .contenedor{
+      height: 500px;
+  }
+  .img-decoracion-1{
+      display: none;
+  }
+
+  table{
+      width: 40vw;
+  }
+
+
+  tr{
+      width: 100vw;
+  }
+
+  input{
+      width: 100%;
+  }
+
+
+}
+
+
+@media all and (min-width: 0px) and ( max-width: 780px ) {
+
+  .contenedor{
+      height: 500px ;
+  }
+
+  .img-decoracion-2{
+      display: none;
+  }
+
+  table{
+      width: 60vw;
+  }
+
+
+}
+
+
+
+@media all and (min-width: 0px) and ( max-width: 450px ) {
+
+  .contenedor{
+      height: 500px ;
+
+  }
+
+  .img-decoracion-2{
+      display: none;
+  }
+
+  table{
+      width: 90vw;
+  }
+
+}
